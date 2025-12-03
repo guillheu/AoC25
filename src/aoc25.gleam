@@ -5,6 +5,6 @@ import gleam/int
 import gleam/io
 
 pub fn main() -> Nil {
-  let count = day3.pb1()
+  let count = day3.pb2()
   io.println("The count is " <> count |> int.to_string)
 }
